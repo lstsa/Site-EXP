@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
   background-color: rgba(219, 219, 219, 0.541);
   font-family: "Poppins", sans-serif;
@@ -36,7 +40,7 @@ header {
 
 .home-button:hover {
   background-size: cover;
-  background-image: url("./imagens/dicogelo_logo-removebg-preview.png");
+  background-image: url("../imagens/dicogelo_logo-removebg-preview.png");
   color: transparent;
   transition: 0.1s;
   scale: 2;
