@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: rgba(219, 219, 219, 0.541);
+  height: 100vh;
 }
 
 .container {
@@ -10,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  height: 100%;
 }
 
 header {
@@ -54,9 +56,12 @@ menu {
 }
 
 .menu-buttons:hover {
-  background-color: #107796bb;
-  color: white;
+  background:
+  radial-gradient(circle, #b3e0ff 70%, #ffffff 100%, transparent 100%);
   transition: 0.2s;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 80px 30px #b3e0ff88;
 }
 
 .menu-buttons {
@@ -91,10 +96,11 @@ a {
   flex-direction: row;
   justify-self: right;
   justify-content: center;
-  margin-right: 160px;
   align-items: center;
   gap: 20px;
-  width: 600px;
+  width: 40%;
+  height: 100px;
+  margin-right: 100px;
 }
 
 .whatsapp-text {
@@ -112,30 +118,43 @@ a {
 .ice-cube {
   scale: 5;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .instagram-container {
   color: #074254;
-  margin-left: 300px;
-  margin-top: 30px;
-  size: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: left;
   align-items: center;
+  margin-top: 75px;
+  justify-content: left;
+  justify-content: center;
   gap: 20px;
-  width: 450px;
+  width: 40%;
+  height: 100px;
+  margin-left: 100px;
 }
 
 .instagram-container:hover {
-  scale: 1.1;
   transition: 0.2s;
+  background:
+  radial-gradient(circle, #b3e0ff 70%, #ffffff 100%, transparent 100%);
+  transition: 0.5s;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 80px 30px #b3e0ff88;
+  border-radius: 40px;
 }
 
 .whatsapp-container:hover {
-  scale: 1.1;
   transition: 0.2s;
+  background:
+  radial-gradient(circle, #b3e0ff 70%, #ffffff 100%, transparent 100%);
+  transition: 0.5s;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 80px 30px #b3e0ff88;
+  border-radius: 40px;
 }
 
 .instagram-text {
@@ -144,12 +163,3 @@ a {
   align-self: right;
 }
 
-.content:hover {
-  background:
-  radial-gradient(circle, #b3e0ff 70%, #ffffff 100%, transparent 100%);
-  transition: 0.5s;
-  border-radius: 40px;
-  color: white;
-  box-shadow: 0 0 80px 30px #b3e0ff88;
-  border-radius: 100px;
-}
