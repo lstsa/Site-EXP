@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  background-color: rgba(219, 219, 219, 0.541);
+}
+
+.container {
+  background-color: rgba(219, 219, 219, 0.541);
+  font-family: "Poppins", sans-serif;
+  height: cover;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 30px;
+  font-size: 35px;
+  color: white;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.home-button {
+  background-color: inherit;
+  color: #074254;
+  border: none;
+  line-height: 0.5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 2px 10px;
+  scale: 1.5;
+}
+
+.home-button:hover {
+  background-size: cover;
+  background-image: url("../imagens/dicogelo_logo-removebg-preview.png");
+  color: transparent;
+  transition: 0.1s;
+  scale: 2;
+}
+
+menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #074254;
+}
+
+.menu-buttons:hover {
+  background-color: #107796bb;
+  color: white;
+  transition: 0.2s;
+}
+
+.menu-buttons {
+  color: #074254;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.content {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 100px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.whatsapp-container {
+  color: #074254;
+  size: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-self: right;
+  justify-content: center;
+  margin-right: 160px;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+}
+
+.whatsapp-text {
+  font-size: 15px;
+  text-decoration: none;
+  align-self: right;
+}
+
+.content img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.ice-cube {
+  scale: 5;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.instagram-container {
+  color: #074254;
+  margin-left: 300px;
+  margin-top: 30px;
+  size: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  width: 450px;
+}
+
+.instagram-container:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
+
+.whatsapp-container:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
+
+.instagram-text {
+  font-size: 15px;
+  text-decoration: none;
+  align-self: right;
+}
+
+.content:hover {
+  background:
+  radial-gradient(circle, #b3e0ff 70%, #ffffff 100%, transparent 100%);
+  transition: 0.5s;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 80px 30px #b3e0ff88;
+  border-radius: 100px;
+}
