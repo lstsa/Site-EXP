@@ -53,9 +53,12 @@ menu {
 }
 
 .menu-buttons:hover {
-  background-color: #107796bb;
-  color: white;
+  background:
+  radial-gradient(circle, #b3e0ff 70%, #ffffff 100%, transparent 100%);
   transition: 0.2s;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 80px 30px #b3e0ff88;
 }
 
 .menu-buttons {
