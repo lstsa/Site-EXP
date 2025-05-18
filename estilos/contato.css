@@ -98,7 +98,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 40%;
+  width: 600px;
   height: 100px;
   margin-right: 100px;
 }
@@ -130,7 +130,7 @@ a {
   justify-content: left;
   justify-content: center;
   gap: 20px;
-  width: 40%;
+  width: 600px;
   height: 100px;
   margin-left: 100px;
 }
