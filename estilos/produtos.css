@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: linear-gradient(to top, #17c4f4, #ffffff);
 }
 
 menu {
@@ -107,5 +108,9 @@ menu {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  
+}
+
+.produtos-imagens:hover {
+  border: 2px solid #007BFF;
+  border-radius: 5px;
 }
